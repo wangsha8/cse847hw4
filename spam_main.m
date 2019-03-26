@@ -28,5 +28,6 @@ for n = 1:6
 end
 
 plot(ns, accs, '--o');
-xlabel('n');
+xlabel('number of training samples');
 ylabel('accuracy');
+title('\eta = 0.0005')
